@@ -1,0 +1,47 @@
+@media (max-width:1280px){
+    body{
+        padding: 0 40px;
+    }
+}
+
+
+@media(max-width:768px){
+    .informacoe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.informacoe .descricao{
+    width: 60%;
+    text-align: center;
+}
+}
+
+@media(max-width:425px){
+    .informacoe .logo{
+        max-width: 300px;
+    }
+
+    .informacoe .descricao{
+         width: 100%;
+    }
+
+         .menu-lateral{
+            position: static;
+            min-height: auto;
+            width: 100%;
+            margin-top: 50;
+         }
+         .menu-lateral ul{
+            flex-direction: row;
+         }
+
+         .conteudo{
+            min-height: 70vh;
+            gap: 50px;
+         }
+    }
+
+    body{
+        padding:40px;
+    }
